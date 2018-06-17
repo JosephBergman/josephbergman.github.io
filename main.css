@@ -82,3 +82,25 @@ ul li {
 .where-to-connect ul li:before {
     background-image: url('link.svg');
 }
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    /* Change font sizes to avoid line breaks */
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    ul {
+        font-size: 1.125em;
+    }
+
+    .content {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
