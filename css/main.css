@@ -1,0 +1,73 @@
+/************************************************
+Remove Browser Styles
+************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/************************************************
+Header
+************************************************/
+
+header {
+    width: 100%; /* header spans top of page */
+    overflow: hidden; /* lets header contain floats */
+    position: fixed; /* fix to top of page */
+    background-color: white;
+}
+
+
+/**************** HEADER - Logo ****************/
+
+#logo { /* match style of navigation bar */
+    float: left;
+    margin-left: 50px;
+    padding: 20px 16px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #343851;
+}
+
+
+/*********** HEADER - NAVIGATION BAR ***********/
+
+nav {
+    list-style-type: none; /* removes the bullets */
+    margin: 0; /* remove browser settings */
+    padding: 0; /* remove browser settings */
+    float: right; /* make nav items appear on right */
+    margin-right: 50px; /* move closer to center */
+}
+
+nav li {
+    float: left; /* put items on one line */
+}
+
+nav li a {
+    display: block; /* makes entire region clickable */
+    padding: 20px; /* create some space around links */
+    text-decoration: none; /* remove link underline */
+    text-align: center;
+    color: #343851;
+    border-bottom: 2px solid transparent; /* prevent resizing */
+}
+
+nav li a:hover { /* Highlight link and add underline */
+    color: #0f4c9c;
+    border-bottom: 2px solid #68a4f1;
+}
+
+
+/************************************************
+Boomer
+************************************************/
+
+.boomer {
+    height: 600px;
+}
