@@ -1,11 +1,3 @@
 # Joseph Bergman 
-Repository for my personal website.
+Repository for my personal website. The design is based off of this [website](https://aditimohanty.com/) which I found on a [list of personal websites](https://github.com/HackathonHackers/personal-sites). The favicon was generated using [favicon.io](https://favicon.io/).
 
-## About 
-+ Homepage is made with the Bootstrap [Resume](https://startbootstrap.com/template-overviews/resume/) theme 
-+ Blogs are made using the Jekyll [Tale](http://jekyllthemes.org/themes/tale/) theme
-
-## Blogs 
-+ Each blog has its own repository 
-+ The deep learning blog repository is [here](https://github.com/JosephBergman/deep-learning)
-+ The study abroad blog repository will be posted soon
