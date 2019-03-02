@@ -1,0 +1,82 @@
+/* Prevents webpage from scrolling */
+body, html {
+  margin: 0;
+  height: 100%;
+  background-color: #C9F0FF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Center information card */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Information Card */
+.card {
+  background-color: #EFEFF0;
+  border-radius: 10px;
+  width: 45%;
+  padding: 50px 75px;
+  text-align: center;
+  box-shadow: 0rem 0.25rem 3rem 0rem rgba(0,0,0,0.1)
+}
+
+/* Headshot Image */
+.headshot {
+  /* Top margin = -(card padding + 0.5*height) */
+  margin: -125px auto 0 auto;
+  height: 150px;
+  width: 150px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* Text styling */
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 0.25rem;
+  margin: 30px 0px 30px 0px;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+/* Separator for footer */
+.separator {
+  width: 50px;
+  height: 1px;
+  margin: 35px auto 30px auto;
+  background-color: #6B5E62;
+}
+
+/* Link Icons */
+.icons {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #333;
+  border-radius: 100%;
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.icons:hover {
+  border-color: #495057;
+  color: #495057;
+}
+
+.icons:last-of-type {
+  margin-right: 0px;
+}
